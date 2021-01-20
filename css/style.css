@@ -87,7 +87,7 @@ z-index: 1;
 .border-primary {
   border-top: .2rem  solid  #4981b3!important;
 }
-}
+
 .carousel-caption h3 {
   font-size: 2.2rem;
   text-shadow: .1rem  .1rem .2rem rgba(0,0, 0, 1);
@@ -117,8 +117,12 @@ z-index: 1;
 
 /*===== FIXED BACKGROUND IMG =====*/
 
+.fixed {
+  background-image: url('../img/matrix.jpg');
+  position: fixed;
+}
 .fixed-background {
-  overflow: hidden; /*-- Correction for iOS --*/
+  padding: 10rem 0;
 }
 
 
