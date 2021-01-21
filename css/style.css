@@ -8,12 +8,12 @@ body {
 /*============= TOP BAR HEADER =============*/
 
 .top-bar {
-  background: #7aaec4;
+  background: black;
   height: 2.8rem;
   padding: .5rem 0;
 }
 .top-bar a  {
-  color: white;
+  color: blue;
   text-decoration: none;
   font-size: 1.1rem;
 }
@@ -37,11 +37,11 @@ z-index: 1;
 
 }
 .nav-link {
-  color: #5b5555!important;
+  color: blue!important;
 }
 .nav-link.active,
 .nav-link:hover {
-  color: #4981b3!important;
+  color: black!important;
 }
 
 
